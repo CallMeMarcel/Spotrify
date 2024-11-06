@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997763968575",
+    "project_id": "proyekpam-cdecd",
+    "storage_bucket": "proyekpam-cdecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997763968575:android:d77a501bffd138b79a928a",
+        "android_client_info": {
+          "package_name": "com.example.proyek_pam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOZZ-QlL_iFTF0FV_COVrKTCgnQKQvpnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

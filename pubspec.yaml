@@ -1,0 +1,66 @@
+name: proyek_pam
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  transparent_image: ^2.0.1
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5 
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.12
+  flutter_bloc:
+  hydrated_bloc:
+  path_provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+  - assets/fonts/
+  - assets/images/
+  - assets/vectors/
+  - assets/vectors/sotrify.svg
+  - assets/vectors/sun.svg
+  - assets/vectors/moon.svg
+
+  fonts:
+    - family : Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Satoshi-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Satoshi-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Satoshi-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Satoshi-Light.ttf
+          weight: 300
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/sotrify_logo.jpg" 
+  # Jika ingin menambahkan custom fonts
+
+  # Jika ingin menambahkan assets
+  #assets:
+    #- images/  # Menambahkan semua gambar di folder images
